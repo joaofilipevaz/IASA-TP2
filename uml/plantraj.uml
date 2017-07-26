@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>plantraj</OriginalElement>
+  <nodes>
+    <node x="33.0" y="79.0">plantraj.PlaneadorTrajecto</node>
+    <node x="30.0" y="0.0">plantraj.modprob</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="plantraj.PlaneadorTrajecto" target="plantraj.modprob">
+      <point x="0.0" y="-47.5" />
+      <point x="43.0" y="14.5" />
+    </edge>
+    <edge source="plantraj.modprob" target="plantraj.modprob">
+      <point x="0.0" y="14.5" />
+      <point x="94.5" y="59.0" />
+      <point x="0.0" y="59.0" />
+      <point x="0.0" y="7.25" />
+      <point x="-64.5" y="-7.25" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="121.0" y="87.0" />
+  <SelectedNodes>
+    <node>plantraj.PlaneadorTrajecto</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

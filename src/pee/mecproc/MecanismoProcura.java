@@ -33,6 +33,7 @@ public abstract class MecanismoProcura<P extends Problema> {
                     expandir(no);
                 }
             }
+            //System.out.println("Fronteira " + memoriaProcura.getFronteira());
         }
         return null;
     }

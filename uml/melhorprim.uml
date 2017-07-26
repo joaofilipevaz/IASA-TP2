@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pee.melhorprim</OriginalElement>
+  <nodes>
+    <node x="81.0" y="0.0">pee.melhorprim.ProcuraMelhorPrim</node>
+    <node x="314.0" y="145.0">pee.melhorprim.ProcuraCustoUnif</node>
+    <node x="157.0" y="145.0">pee.melhorprim.ProcuraSofrega</node>
+    <node x="0.0" y="241.0">pee.melhorprim.ProcuraHeur</node>
+    <node x="0.0" y="145.0">pee.melhorprim.ProcuraAA</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pee.melhorprim.ProcuraCustoUnif" target="pee.melhorprim.ProcuraMelhorPrim">
+      <point x="0.0" y="-25.5" />
+      <point x="385.0" y="120.0" />
+      <point x="321.8333333333333" y="120.0" />
+      <point x="96.33333333333331" y="47.5" />
+    </edge>
+    <edge source="pee.melhorprim.ProcuraAA" target="pee.melhorprim.ProcuraMelhorPrim">
+      <point x="0.0" y="-25.5" />
+      <point x="68.5" y="120.0" />
+      <point x="129.16666666666669" y="120.0" />
+      <point x="-96.33333333333331" y="47.5" />
+    </edge>
+    <edge source="pee.melhorprim.ProcuraSofrega" target="pee.melhorprim.ProcuraMelhorPrim">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="47.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="228.0" y="157.0" />
+  <SelectedNodes>
+    <node>pee.melhorprim.ProcuraAA</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

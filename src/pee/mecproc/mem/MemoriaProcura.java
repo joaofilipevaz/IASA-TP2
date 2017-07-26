@@ -66,4 +66,11 @@ public class MemoriaProcura {
     public void setNmaxnosexplorados(int nmaxnosexplorados) {
         this.nmaxnosexplorados = nmaxnosexplorados;
     }
+
+    public String getFronteira(){
+        return fronteira.toString();
+    }
+
+    public String getExplorados(){ return explorados.toString();
+    }
 }

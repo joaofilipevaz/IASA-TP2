@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>pee.mecproc</OriginalElement>
+  <nodes>
+    <node x="143.66666666666669" y="6.201171875">pee.mecproc.mem</node>
+    <node x="0.0" y="95.201171875">pee.mecproc.MecanismoProcura</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pee.mecproc.mem" target="pee.mecproc.mem">
+      <point x="-35.666666666666664" y="14.5" />
+      <point x="161.5" y="55.201171875" />
+      <point x="123.66666666666669" y="55.201171875" />
+      <point x="123.66666666666669" y="20.701171875" />
+      <point x="-53.5" y="-0.0" />
+    </edge>
+    <edge source="pee.mecproc.MecanismoProcura" target="pee.mecproc.mem">
+      <point x="107.5" y="-126.0" />
+      <point x="322.5" y="75.201171875" />
+      <point x="232.83333333333334" y="75.201171875" />
+      <point x="35.66666666666666" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="215.0" y="174.0" />
+  <SelectedNodes>
+    <node>pee.mecproc.mem</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
