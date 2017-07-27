@@ -3,31 +3,55 @@
   <ID>JAVA</ID>
   <OriginalElement>pee.modprob</OriginalElement>
   <nodes>
-    <node x="82.25" y="292.0">pee.modprob.ProblemaHeur</node>
-    <node x="0.0" y="0.0">pee.modprob.Estado</node>
-    <node x="75.25" y="123.0">pee.modprob.Problema</node>
-    <node x="232.0" y="0.0">pee.modprob.Operador</node>
+    <node x="125.50925925925932" y="415.0">pee.modprob.ProblemaHeur</node>
+    <node x="0.0" y="246.0">pee.modprob.Problema</node>
+    <node x="65.37500000000003" y="0.0">pee.modprob.Estado</node>
+    <node x="95.9212962962963" y="123.0">pee.modprob.Operador</node>
   </nodes>
   <notes />
   <edges>
+    <edge source="pee.modprob.ProblemaHeur" target="pee.modprob.Estado">
+      <point x="84.66666666666666" y="-37.0" />
+      <point x="337.175925925926" y="390.0" />
+      <point x="313.4212962962963" y="390.0" />
+      <point x="313.4212962962963" y="103.0" />
+      <point x="232.50000000000003" y="103.0" />
+      <point x="71.625" y="36.5" />
+    </edge>
+    <edge source="pee.modprob.Operador" target="pee.modprob.Estado">
+      <point x="2.8421709430404007E-14" y="-36.5" />
+      <point x="199.42129629629633" y="103.0" />
+      <point x="184.75000000000003" y="103.0" />
+      <point x="23.875" y="36.5" />
+    </edge>
     <edge source="pee.modprob.ProblemaHeur" target="pee.modprob.Problema">
-      <point x="0.0" y="-37.0" />
+      <point x="-84.66666666666671" y="-37.0" />
+      <point x="167.8425925925926" y="390.0" />
+      <point x="114.0" y="390.0" />
       <point x="0.0" y="59.5" />
     </edge>
+    <edge source="pee.modprob.ProblemaHeur" target="pee.modprob.Operador">
+      <point x="-2.8421709430404007E-14" y="-37.0" />
+      <point x="252.5092592592593" y="390.0" />
+      <point x="277.7453703703704" y="390.0" />
+      <point x="277.7453703703704" y="221.0" />
+      <point x="268.4212962962963" y="221.0" />
+      <point x="69.00000000000003" y="36.5" />
+    </edge>
     <edge source="pee.modprob.Problema" target="pee.modprob.Estado">
-      <point x="-72.5" y="-59.5" />
-      <point x="147.75" y="98.0" />
-      <point x="106.0" y="98.0" />
-      <point x="0.0" y="36.5" />
+      <point x="-28.5" y="-59.5" />
+      <point x="85.4212962962963" y="103.0" />
+      <point x="137.00000000000003" y="103.0" />
+      <point x="-23.875" y="36.5" />
     </edge>
     <edge source="pee.modprob.Problema" target="pee.modprob.Operador">
-      <point x="72.5" y="-59.5" />
-      <point x="292.75" y="98.0" />
-      <point x="334.5" y="98.0" />
-      <point x="0.0" y="36.5" />
+      <point x="28.5" y="-59.5" />
+      <point x="142.5" y="221.0" />
+      <point x="130.4212962962963" y="221.0" />
+      <point x="-69.0" y="36.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="218.5" y="183.0" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="190.0" y="244.5" />
   <SelectedNodes>
     <node>pee.modprob.Problema</node>
   </SelectedNodes>

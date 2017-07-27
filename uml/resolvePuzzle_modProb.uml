@@ -4,31 +4,41 @@
   <OriginalElement>resolvePuzzle.modProb</OriginalElement>
   <nodes>
     <node x="0.0" y="191.0">resolvePuzzle.modProb.OperadorPuzzle</node>
-    <node x="296.0" y="202.0">resolvePuzzle.modProb.ProblemaPuzzle</node>
-    <node x="251.49999999999997" y="0.0">resolvePuzzle.modProb.EstadoPuzzle</node>
+    <node x="62.85833333333335" y="382.0">resolvePuzzle.modProb.ProblemaPuzzle</node>
+    <node x="133.08333333333334" y="0.0">resolvePuzzle.modProb.EstadoPuzzle</node>
   </nodes>
   <notes />
   <edges>
     <edge source="resolvePuzzle.modProb.OperadorPuzzle" target="resolvePuzzle.modProb.EstadoPuzzle">
-      <point x="0.0" y="-70.5" />
-      <point x="138.0" y="166.0" />
-      <point x="287.8333333333333" y="166.0" />
-      <point x="-72.66666666666667" y="70.5" />
+      <point x="61.25" y="-70.5" />
+      <point x="183.75" y="171.0" />
+      <point x="187.68333333333334" y="171.0" />
+      <point x="-36.400000000000006" y="70.5" />
     </edge>
     <edge source="resolvePuzzle.modProb.ProblemaPuzzle" target="resolvePuzzle.modProb.EstadoPuzzle">
-      <point x="-64.5" y="-59.5" />
-      <point x="1.4210854715202004E-14" y="70.5" />
+      <point x="-41.875" y="-59.5" />
+      <point x="188.48333333333335" y="357.0" />
+      <point x="255.5" y="357.0" />
+      <point x="255.5" y="171.0" />
+      <point x="224.08333333333337" y="171.0" />
+      <point x="2.8421709430404007E-14" y="70.5" />
+    </edge>
+    <edge source="resolvePuzzle.modProb.ProblemaPuzzle" target="resolvePuzzle.modProb.OperadorPuzzle">
+      <point x="-125.625" y="-59.5" />
+      <point x="104.73333333333335" y="357.0" />
+      <point x="122.5" y="357.0" />
+      <point x="0.0" y="70.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="277.0" y="166.0" />
+  <settings layout="Hierarchic Group" zoom="0.944337811900192" x="199.0" y="250.5" />
   <SelectedNodes>
     <node>resolvePuzzle.modProb.OperadorPuzzle</node>
   </SelectedNodes>
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>
-    <Category>Properties</Category>
     <Category>Methods</Category>
+    <Category>Properties</Category>
     <Category>Inner Classes</Category>
   </Categories>
   <SCOPE>All</SCOPE>

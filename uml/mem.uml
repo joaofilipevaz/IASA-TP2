@@ -3,36 +3,60 @@
   <ID>JAVA</ID>
   <OriginalElement>pee.mecproc.mem</OriginalElement>
   <nodes>
-    <node x="344.0" y="514.0">pee.mecproc.mem.MemoriaPrioridade</node>
-    <node x="122.5" y="0.0">pee.mecproc.mem.No</node>
-    <node x="172.00000000000003" y="514.0">pee.mecproc.mem.MemoriaLIFO</node>
-    <node x="0.0" y="514.0">pee.mecproc.mem.MemoriaFIFO</node>
-    <node x="76.0" y="234.0">pee.mecproc.mem.MemoriaProcura</node>
+    <node x="350.03645833333337" y="558.0">pee.mecproc.mem.MemoriaPrioridade</node>
+    <node x="150.875" y="0.0">pee.mecproc.mem.No</node>
+    <node x="180.03645833333334" y="558.0">pee.mecproc.mem.MemoriaLIFO</node>
+    <node x="0.0" y="558.0">pee.mecproc.mem.MemoriaFIFO</node>
+    <node x="65.125" y="234.0">pee.mecproc.mem.MemoriaProcura</node>
   </nodes>
   <notes />
   <edges>
     <edge source="pee.mecproc.mem.MemoriaLIFO" target="pee.mecproc.mem.MemoriaProcura">
-      <point x="-2.8421709430404007E-14" y="-25.5" />
-      <point x="0.0" y="115.0" />
+      <point x="-37.5" y="-25.5" />
+      <point x="217.53645833333334" y="538.0" />
+      <point x="191.625" y="538.0" />
+      <point x="0.0" y="137.0" />
     </edge>
     <edge source="pee.mecproc.mem.MemoriaProcura" target="pee.mecproc.mem.No">
-      <point x="0.0" y="-115.0" />
-      <point x="0.0" y="92.0" />
+      <point x="-63.25" y="-137.0" />
+      <point x="128.375" y="214.0" />
+      <point x="213.27499999999998" y="214.0" />
+      <point x="-41.60000000000002" y="92.0" />
     </edge>
     <edge source="pee.mecproc.mem.MemoriaFIFO" target="pee.mecproc.mem.MemoriaProcura">
-      <point x="0.0" y="-25.5" />
-      <point x="76.0" y="489.0" />
-      <point x="133.33333333333331" y="489.0" />
-      <point x="-114.66666666666669" y="115.0" />
+      <point x="37.75" y="-25.5" />
+      <point x="113.25" y="538.0" />
+      <point x="107.29166666666669" y="538.0" />
+      <point x="-84.33333333333333" y="137.0" />
+    </edge>
+    <edge source="pee.mecproc.mem.MemoriaFIFO" target="pee.mecproc.mem.No">
+      <point x="-37.75" y="-25.5" />
+      <point x="37.75" y="204.0" />
+      <point x="171.675" y="204.0" />
+      <point x="-83.19999999999999" y="92.0" />
+    </edge>
+    <edge source="pee.mecproc.mem.MemoriaLIFO" target="pee.mecproc.mem.No">
+      <point x="37.5" y="-25.5" />
+      <point x="292.53645833333337" y="538.0" />
+      <point x="328.625" y="538.0" />
+      <point x="328.625" y="214.0" />
+      <point x="296.47499999999997" y="214.0" />
+      <point x="41.599999999999966" y="92.0" />
+    </edge>
+    <edge source="pee.mecproc.mem.MemoriaPrioridade" target="pee.mecproc.mem.No">
+      <point x="68.99999999999991" y="-25.5" />
+      <point x="557.0364583333333" y="214.0" />
+      <point x="338.07499999999993" y="214.0" />
+      <point x="83.19999999999993" y="92.0" />
     </edge>
     <edge source="pee.mecproc.mem.MemoriaPrioridade" target="pee.mecproc.mem.MemoriaProcura">
-      <point x="0.0" y="-25.5" />
-      <point x="483.0" y="489.0" />
-      <point x="362.6666666666667" y="489.0" />
-      <point x="114.66666666666669" y="115.0" />
+      <point x="-69.00000000000006" y="-25.5" />
+      <point x="419.03645833333326" y="528.0" />
+      <point x="275.9583333333333" y="528.0" />
+      <point x="84.33333333333331" y="137.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="311.0" y="282.5" />
+  <settings layout="Hierarchic Group" zoom="0.7821939586645469" x="313.5" y="304.5" />
   <SelectedNodes>
     <node>pee.mecproc.mem.MemoriaProcura</node>
   </SelectedNodes>
