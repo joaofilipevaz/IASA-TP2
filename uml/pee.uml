@@ -3,170 +3,446 @@
   <ID>JAVA</ID>
   <OriginalElement>pee</OriginalElement>
   <nodes>
-    <node x="0.0" y="799.8678385416666">pee.melhorprim</node>
-    <node x="380.4396604938271" y="144.86783854166663">pee.PassoSolucao</node>
-    <node x="53.208333333333314" y="626.8678385416666">pee.Procura</node>
-    <node x="325.7708333333333" y="435.86783854166663">pee.Percurso</node>
-    <node x="514.7916666666666" y="799.8678385416666">pee.larg</node>
-    <node x="394.13699845679025" y="648.8678385416666">pee.mecproc</node>
-    <node x="268.26199845679025" y="799.8678385416666">pee.prof</node>
-    <node x="141.18082561728403" y="289.86783854166663">pee.Solucao</node>
-    <node x="415.8563271604938" y="15.867838541666629">pee.modprob</node>
+    <node x="2210.325507281951" y="1209.5">pee.mecproc.mem.MemoriaPrioridade</node>
+    <node x="1852.625" y="431.0">pee.mecproc.mem.No</node>
+    <node x="1148.5" y="286.0">pee.PassoSolucao</node>
+    <node x="0.0" y="1198.0">pee.modprob.ProblemaHeur</node>
+    <node x="1080.9969041482564" y="771.5">pee.Percurso</node>
+    <node x="2237.063570814923" y="1728.5">pee.melhorprim.ProcuraCustoUnif</node>
+    <node x="1526.3416666666667" y="0.0">pee.modprob.Estado</node>
+    <node x="1737.3999999999999" y="1513.0">pee.larg.ProcuraLarg</node>
+    <node x="2038.3255072819506" y="1209.5">pee.mecproc.mem.MemoriaFIFO</node>
+    <node x="1193.1588406152841" y="1728.5">pee.melhorprim.ProcuraSofrega</node>
+    <node x="1471.3999999999999" y="1513.0">pee.prof.ProcuraProf</node>
+    <node x="274.9999999999998" y="1502.0">pee.melhorprim.ProcuraHeur</node>
+    <node x="846.9999999999999" y="153.0">pee.modprob.Operador</node>
+    <node x="2539.742173948617" y="705.0">pee.mecproc.mem.MemoriaProcura</node>
+    <node x="2151.0755072819506" y="1491.0">pee.melhorprim.ProcuraMelhorPrim</node>
+    <node x="1868.3255072819506" y="1209.5">pee.mecproc.mem.MemoriaLIFO</node>
+    <node x="667.2469041482565" y="1198.5">pee.Procura</node>
+    <node x="1601.3255072819506" y="1109.0">pee.mecproc.MecanismoProcura</node>
+    <node x="357.9969041482565" y="782.5">pee.modprob.Problema</node>
+    <node x="664.0588406152842" y="1706.0">pee.prof.ProcuraProfIter</node>
+    <node x="943.2469041482565" y="475.0">pee.Solucao</node>
+    <node x="1349.1588406152841" y="1728.5">pee.melhorprim.ProcuraAA</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="pee.mecproc" target="pee.Percurso">
-      <point x="-15.625" y="-14.5" />
-      <point x="441.01199845679025" y="596.8678385416666" />
-      <point x="390.2708333333333" y="596.8678385416666" />
-      <point x="-64.5" y="70.5" />
+    <edge source="pee.prof.ProcuraProf" target="pee.mecproc.MecanismoProcura">
+      <point x="0.0" y="-25.5" />
+      <point x="1594.3999999999999" y="1421.0" />
+      <point x="1642.4921739486176" y="1421.0" />
+      <point x="-82.33333333333326" y="126.0" />
     </edge>
-    <edge source="pee.prof" target="pee.modprob">
-      <point x="37.875" y="-14.5" />
-      <point x="356.63699845679025" y="769.8678385416666" />
-      <point x="605.2708333333333" y="769.8678385416666" />
-      <point x="605.2708333333333" y="114.86783854166663" />
-      <point x="522.5229938271605" y="114.86783854166663" />
-      <point x="42.666666666666686" y="14.5" />
+    <edge source="pee.PassoSolucao" target="pee.modprob.Estado">
+      <point x="38.5" y="-47.5" />
+      <point x="1264.0" y="133.0" />
+      <point x="1612.2916666666665" y="133.0" />
+      <point x="-9.549999999999955" y="36.5" />
     </edge>
-    <edge source="pee.prof" target="pee.Procura">
-      <point x="-37.875" y="-14.5" />
-      <point x="280.88699845679025" y="739.8678385416666" />
-      <point x="169.70833333333331" y="739.8678385416666" />
-      <point x="0.0" y="36.5" />
+    <edge source="pee.melhorprim.ProcuraCustoUnif" target="pee.Procura">
+      <point x="-17.5" y="-25.5" />
+      <point x="2289.563570814923" y="1606.0" />
+      <point x="1043.6119364670276" y="1606.0" />
+      <point x="1043.6119364670276" y="1471.0" />
+      <point x="706.0802374815898" y="1471.0" />
+      <point x="-77.66666666666663" y="36.5" />
     </edge>
-    <edge source="pee.prof" target="pee.Solucao">
-      <point x="-12.625" y="-14.5" />
-      <point x="306.13699845679025" y="739.8678385416666" />
-      <point x="296.7083333333333" y="739.8678385416666" />
-      <point x="296.7083333333333" y="415.86783854166663" />
-      <point x="262.68082561728403" y="415.86783854166663" />
-      <point x="0.0" y="48.0" />
+    <edge source="pee.melhorprim.ProcuraMelhorPrim" target="pee.mecproc.MecanismoProcura">
+      <point x="-92.25" y="-47.5" />
+      <point x="2181.8255072819506" y="1381.0" />
+      <point x="1807.1588406152841" y="1381.0" />
+      <point x="82.33333333333326" y="126.0" />
     </edge>
-    <edge source="pee.prof" target="pee.mecproc">
-      <point x="12.625" y="-14.5" />
-      <point x="331.38699845679025" y="759.8678385416666" />
-      <point x="456.63699845679025" y="759.8678385416666" />
-      <point x="0.0" y="14.5" />
+    <edge source="pee.prof.ProcuraProf" target="pee.mecproc.mem.MemoriaLIFO">
+      <point x="49.200000000000045" y="-25.5" />
+      <point x="1643.6" y="1431.0" />
+      <point x="1943.3255072819506" y="1431.0" />
+      <point x="0.0" y="25.5" />
     </edge>
-    <edge source="pee.larg" target="pee.modprob">
-      <point x="33.0" y="-14.5" />
-      <point x="597.2916666666666" y="779.8678385416666" />
-      <point x="633.4398919753087" y="779.8678385416666" />
-      <point x="633.4398919753087" y="104.86783854166663" />
-      <point x="536.7452160493826" y="104.86783854166663" />
-      <point x="56.88888888888886" y="14.5" />
+    <edge source="pee.melhorprim.ProcuraSofrega" target="pee.mecproc.mem.No">
+      <point x="0.0" y="-25.5" />
+      <point x="1261.1588406152841" y="1656.0" />
+      <point x="1349.4969041482564" y="1656.0" />
+      <point x="1349.4969041482564" y="645.0" />
+      <point x="1878.625" y="645.0" />
+      <point x="-78.0" y="92.0" />
     </edge>
-    <edge source="pee.Percurso" target="pee.Solucao">
-      <point x="-96.75" y="-70.5" />
-      <point x="358.0208333333333" y="415.86783854166663" />
-      <point x="359.880825617284" y="415.86783854166663" />
-      <point x="97.19999999999999" y="48.0" />
+    <edge source="pee.melhorprim.ProcuraMelhorPrim" target="pee.mecproc.mem.MemoriaPrioridade">
+      <point x="30.75" y="-47.5" />
+      <point x="2304.8255072819506" y="1441.0" />
+      <point x="2348.325507281951" y="1441.0" />
+      <point x="0.0" y="25.5" />
     </edge>
-    <edge source="pee.melhorprim" target="pee.modprob">
-      <point x="-52.875" y="-14.5" />
-      <point x="17.625" y="779.8678385416666" />
-      <point x="22.70833333333337" y="779.8678385416666" />
-      <point x="22.70833333333337" y="104.86783854166663" />
-      <point x="465.63410493827155" y="104.86783854166663" />
-      <point x="-14.222222222222229" y="14.5" />
+    <edge source="pee.melhorprim.ProcuraMelhorPrim" target="pee.mecproc.mem.No">
+      <point x="-30.75" y="-47.5" />
+      <point x="2243.3255072819506" y="1441.0" />
+      <point x="2199.8255072819506" y="1441.0" />
+      <point x="2199.8255072819506" y="675.0" />
+      <point x="1982.625" y="675.0" />
+      <point x="26.0" y="92.0" />
     </edge>
-    <edge source="pee.melhorprim" target="pee.Solucao">
-      <point x="-17.625" y="-14.5" />
-      <point x="52.875" y="779.8678385416666" />
-      <point x="33.708333333333314" y="779.8678385416666" />
-      <point x="33.708333333333314" y="415.86783854166663" />
-      <point x="165.48082561728404" y="415.86783854166663" />
-      <point x="-97.19999999999999" y="48.0" />
-    </edge>
-    <edge source="pee.mecproc" target="pee.modprob">
-      <point x="46.875" y="-14.5" />
-      <point x="503.51199845679025" y="606.8678385416666" />
-      <point x="594.2708333333333" y="606.8678385416666" />
-      <point x="594.2708333333333" y="124.86783854166663" />
-      <point x="508.30077160493823" y="124.86783854166663" />
-      <point x="28.444444444444457" y="14.5" />
-    </edge>
-    <edge source="pee.modprob" target="pee.modprob">
-      <point x="-56.888888888888886" y="14.5" />
-      <point x="422.9674382716049" y="64.86783854166663" />
-      <point x="395.8563271604938" y="64.86783854166663" />
-      <point x="395.8563271604938" y="40.03450520833326" />
-      <point x="-64.0" y="9.666666666666629" />
-    </edge>
-    <edge source="pee.Percurso" target="pee.PassoSolucao">
-      <point x="-32.25" y="-70.5" />
-      <point x="422.5208333333333" y="415.86783854166663" />
-      <point x="451.13699845679025" y="415.86783854166663" />
-      <point x="451.13699845679025" y="264.86783854166663" />
-      <point x="438.1896604938271" y="264.86783854166663" />
-      <point x="-19.25" y="47.5" />
-    </edge>
-    <edge source="pee.larg" target="pee.Procura">
-      <point x="-33.0" y="-14.5" />
-      <point x="531.2916666666666" y="729.8678385416666" />
-      <point x="247.375" y="729.8678385416666" />
-      <point x="77.66666666666669" y="36.5" />
-    </edge>
-    <edge source="pee.PassoSolucao" target="pee.modprob">
-      <point x="0.0" y="-47.5" />
-      <point x="457.4396604938271" y="124.86783854166663" />
-      <point x="494.078549382716" y="124.86783854166663" />
-      <point x="14.222222222222229" y="14.5" />
+    <edge source="pee.modprob.ProblemaHeur" target="pee.modprob.Estado">
+      <point x="-84.66666666666674" y="-37.0" />
+      <point x="42.33333333333326" y="1089.0" />
+      <point x="68.16666666666674" y="1089.0" />
+      <point x="68.16666666666674" y="93.0" />
+      <point x="1535.8916666666664" y="93.0" />
+      <point x="-85.95000000000005" y="36.5" />
     </edge>
     <edge source="pee.Procura" target="pee.Solucao">
       <point x="58.25" y="-36.5" />
-      <point x="227.95833333333331" y="606.8678385416666" />
-      <point x="203.38676697530863" y="606.8678385416666" />
-      <point x="203.38676697530863" y="415.86783854166663" />
-      <point x="214.080825617284" y="415.86783854166663" />
+      <point x="841.9969041482565" y="645.0" />
+      <point x="1016.1469041482565" y="645.0" />
       <point x="-48.60000000000002" y="48.0" />
+    </edge>
+    <edge source="pee.modprob.ProblemaHeur" target="pee.modprob.Operador">
+      <point x="0.0" y="-37.0" />
+      <point x="127.0" y="1089.0" />
+      <point x="101.16666666666674" y="1089.0" />
+      <point x="101.16666666666674" y="246.0" />
+      <point x="861.7857142857141" y="246.0" />
+      <point x="-88.71428571428578" y="36.5" />
+    </edge>
+    <edge source="pee.larg.ProcuraLarg" target="pee.mecproc.mem.MemoriaProcura">
+      <point x="98.40000000000009" y="-25.5" />
+      <point x="1958.8" y="1461.0" />
+      <point x="2680.7859576992314" y="1461.0" />
+      <point x="2680.7859576992314" y="1079.0" />
+      <point x="2745.304673948617" y="1079.0" />
+      <point x="79.0625" y="137.0" />
+    </edge>
+    <edge source="pee.mecproc.MecanismoProcura" target="pee.modprob.Operador">
+      <point x="-109.77777777777783" y="-126.0" />
+      <point x="1615.0477295041728" y="1089.0" />
+      <point x="932.7469041482565" y="1089.0" />
+      <point x="932.7469041482565" y="266.0" />
+      <point x="950.4999999999999" y="266.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="pee.Percurso" target="pee.mecproc.mem.No">
+      <point x="103.20000000000005" y="-70.5" />
+      <point x="1313.1969041482566" y="635.0" />
+      <point x="1861.2916666666665" y="635.0" />
+      <point x="-95.33333333333326" y="92.0" />
+    </edge>
+    <edge source="pee.mecproc.MecanismoProcura" target="pee.Solucao">
+      <point x="-82.33333333333348" y="-126.0" />
+      <point x="1642.4921739486172" y="1079.0" />
+      <point x="1003.4499999999999" y="1079.0" />
+      <point x="1003.4499999999999" y="665.0" />
+      <point x="1113.3469041482563" y="665.0" />
+      <point x="48.59999999999991" y="48.0" />
+    </edge>
+    <edge source="pee.mecproc.mem.MemoriaLIFO" target="pee.mecproc.mem.No">
+      <point x="-37.5" y="-25.5" />
+      <point x="1905.8255072819506" y="685.0" />
+      <point x="1947.958333333333" y="685.0" />
+      <point x="-8.666666666666742" y="92.0" />
+    </edge>
+    <edge source="pee.mecproc.mem.MemoriaPrioridade" target="pee.mecproc.mem.No">
+      <point x="-69.0" y="-25.5" />
+      <point x="2279.3255072819506" y="665.0" />
+      <point x="1999.958333333333" y="665.0" />
+      <point x="43.33333333333326" y="92.0" />
+    </edge>
+    <edge source="pee.mecproc.mem.MemoriaLIFO" target="pee.mecproc.mem.MemoriaProcura">
+      <point x="37.5" y="-25.5" />
+      <point x="1980.8255072819506" y="1039.0" />
+      <point x="2618.804673948617" y="1039.0" />
+      <point x="-47.4375" y="137.0" />
+    </edge>
+    <edge source="pee.prof.ProcuraProf" target="pee.Procura">
+      <point x="-49.200000000000045" y="-25.5" />
+      <point x="1545.1999999999998" y="1451.0" />
+      <point x="783.7469041482565" y="1451.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="pee.modprob.Problema" target="pee.modprob.Operador">
+      <point x="85.5" y="-59.5" />
+      <point x="557.4969041482565" y="685.0" />
+      <point x="612.4999999999999" y="685.0" />
+      <point x="612.4999999999999" y="266.0" />
+      <point x="920.9285714285713" y="266.0" />
+      <point x="-29.571428571428555" y="36.5" />
+    </edge>
+    <edge source="pee.prof.ProcuraProfIter" target="pee.modprob.Problema">
+      <point x="-84.33333333333326" y="-48.0" />
+      <point x="706.225507281951" y="1686.0" />
+      <point x="264.5" y="1686.0" />
+      <point x="264.5" y="1089.0" />
+      <point x="414.9969041482565" y="1089.0" />
+      <point x="-57.0" y="59.5" />
+    </edge>
+    <edge source="pee.prof.ProcuraProfIter" target="pee.Solucao">
+      <point x="0.0" y="-48.0" />
+      <point x="790.5588406152842" y="1656.0" />
+      <point x="921.7469041482565" y="1656.0" />
+      <point x="921.7469041482565" y="655.0" />
+      <point x="1064.7469041482564" y="655.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="pee.Percurso" target="pee.PassoSolucao">
+      <point x="-51.59999999999991" y="-70.5" />
+      <point x="1158.3969041482565" y="685.0" />
+      <point x="1196.7469041482564" y="685.0" />
+      <point x="1196.7469041482564" y="411.0" />
+      <point x="1194.6999999999998" y="411.0" />
+      <point x="-30.799999999999955" y="47.5" />
     </edge>
     <edge source="pee.Solucao" target="pee.PassoSolucao">
       <point x="0.0" y="-48.0" />
-      <point x="262.68082561728403" y="264.86783854166663" />
-      <point x="399.6896604938271" y="264.86783854166663" />
-      <point x="-57.75" y="47.5" />
+      <point x="1064.7469041482564" y="411.0" />
+      <point x="1163.9" y="411.0" />
+      <point x="-61.59999999999991" y="47.5" />
     </edge>
-    <edge source="pee.mecproc" target="pee.Solucao">
-      <point x="-46.875" y="-14.5" />
-      <point x="409.76199845679025" y="606.8678385416666" />
-      <point x="315.2708333333333" y="606.8678385416666" />
-      <point x="315.2708333333333" y="415.86783854166663" />
-      <point x="311.280825617284" y="415.86783854166663" />
-      <point x="48.599999999999966" y="48.0" />
+    <edge source="pee.mecproc.mem.No" target="pee.modprob.Operador">
+      <point x="0.0" y="-92.0" />
+      <point x="1956.625" y="411.0" />
+      <point x="1971.9249999999997" y="411.0" />
+      <point x="1971.9249999999997" y="246.0" />
+      <point x="1039.2142857142858" y="246.0" />
+      <point x="88.71428571428578" y="36.5" />
     </edge>
-    <edge source="pee.melhorprim" target="pee.mecproc">
-      <point x="52.875" y="-14.5" />
-      <point x="123.375" y="749.8678385416666" />
-      <point x="414.9703317901235" y="749.8678385416666" />
-      <point x="-41.666666666666686" y="14.5" />
+    <edge source="pee.larg.ProcuraLarg" target="pee.mecproc.MecanismoProcura">
+      <point x="0.0" y="-25.5" />
+      <point x="1860.3999999999999" y="1391.0" />
+      <point x="1724.8255072819506" y="1391.0" />
+      <point x="0.0" y="126.0" />
     </edge>
-    <edge source="pee.larg" target="pee.mecproc">
-      <point x="0.0" y="-14.5" />
-      <point x="564.2916666666666" y="719.8678385416666" />
-      <point x="498.3036651234569" y="719.8678385416666" />
-      <point x="41.66666666666663" y="14.5" />
+    <edge source="pee.melhorprim.ProcuraHeur" target="pee.Solucao">
+      <point x="64.75" y="-36.5" />
+      <point x="469.2499999999998" y="1471.0" />
+      <point x="656.7469041482565" y="1471.0" />
+      <point x="656.7469041482565" y="635.0" />
+      <point x="967.5469041482564" y="635.0" />
+      <point x="-97.20000000000005" y="48.0" />
     </edge>
-    <edge source="pee.melhorprim" target="pee.Procura">
-      <point x="17.625" y="-14.5" />
-      <point x="88.125" y="779.8678385416666" />
-      <point x="92.04166666666663" y="779.8678385416666" />
-      <point x="-77.66666666666667" y="36.5" />
+    <edge source="pee.larg.ProcuraLarg" target="pee.mecproc.mem.MemoriaFIFO">
+      <point x="49.200000000000045" y="-25.5" />
+      <point x="1909.6" y="1441.0" />
+      <point x="2113.8255072819506" y="1441.0" />
+      <point x="0.0" y="25.5" />
     </edge>
-    <edge source="pee.Procura" target="pee.modprob">
+    <edge source="pee.mecproc.mem.No" target="pee.PassoSolucao">
+      <point x="-83.20000000000005" y="-92.0" />
+      <point x="1873.4249999999997" y="411.0" />
+      <point x="1287.1" y="411.0" />
+      <point x="61.59999999999991" y="47.5" />
+    </edge>
+    <edge source="pee.prof.ProcuraProf" target="pee.modprob.Problema">
+      <point x="-98.40000000000009" y="-25.5" />
+      <point x="1495.9999999999998" y="1461.0" />
+      <point x="555.4999999999999" y="1461.0" />
+      <point x="555.4999999999999" y="1079.0" />
+      <point x="490.9969041482565" y="1079.0" />
+      <point x="19.0" y="59.5" />
+    </edge>
+    <edge source="pee.prof.ProcuraProf" target="pee.mecproc.mem.MemoriaProcura">
+      <point x="98.40000000000009" y="-25.5" />
+      <point x="1692.8" y="1451.0" />
+      <point x="2669.7859576992314" y="1451.0" />
+      <point x="2669.7859576992314" y="1069.0" />
+      <point x="2713.679673948617" y="1069.0" />
+      <point x="47.4375" y="137.0" />
+    </edge>
+    <edge source="pee.melhorprim.ProcuraAA" target="pee.modprob.ProblemaHeur">
+      <point x="-45.33333333333326" y="-25.5" />
+      <point x="1371.8255072819509" y="1636.0" />
+      <point x="127.0" y="1636.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="pee.mecproc.MecanismoProcura" target="pee.Percurso">
+      <point x="-54.888888888888914" y="-126.0" />
+      <point x="1669.936618393062" y="1069.0" />
+      <point x="1145.4969041482564" y="1069.0" />
+      <point x="-64.5" y="70.5" />
+    </edge>
+    <edge source="pee.melhorprim.ProcuraCustoUnif" target="pee.melhorprim.ProcuraMelhorPrim">
+      <point x="17.5" y="-25.5" />
+      <point x="2324.563570814923" y="1676.0" />
+      <point x="2356.075507281951" y="1676.0" />
+      <point x="82.0" y="47.5" />
+    </edge>
+    <edge source="pee.modprob.ProblemaHeur" target="pee.modprob.Problema">
+      <point x="84.66666666666669" y="-37.0" />
+      <point x="211.66666666666674" y="1079.0" />
+      <point x="376.9969041482565" y="1079.0" />
+      <point x="-95.0" y="59.5" />
+    </edge>
+    <edge source="pee.melhorprim.ProcuraMelhorPrim" target="pee.mecproc.mem.MemoriaProcura">
+      <point x="92.25000000000011" y="-47.5" />
+      <point x="2366.325507281951" y="1471.0" />
+      <point x="2691.7859576992314" y="1471.0" />
+      <point x="2691.7859576992314" y="1089.0" />
+      <point x="2776.929673948617" y="1089.0" />
+      <point x="110.6875" y="137.0" />
+    </edge>
+    <edge source="pee.melhorprim.ProcuraCustoUnif" target="pee.mecproc.mem.No">
+      <point x="52.500000000000114" y="-25.5" />
+      <point x="2359.563570814923" y="1686.0" />
+      <point x="2496.825507281951" y="1686.0" />
+      <point x="2496.825507281951" y="655.0" />
+      <point x="2017.2916666666665" y="655.0" />
+      <point x="60.666666666666515" y="92.0" />
+    </edge>
+    <edge source="pee.Procura" target="pee.modprob.Problema">
       <point x="-58.25" y="-36.5" />
-      <point x="111.45833333333331" y="606.8678385416666" />
-      <point x="121.33676697530865" y="606.8678385416666" />
-      <point x="121.33676697530865" y="114.86783854166663" />
-      <point x="479.8563271604938" y="114.86783854166663" />
-      <point x="0.0" y="14.5" />
+      <point x="725.4969041482565" y="1069.0" />
+      <point x="528.9969041482565" y="1069.0" />
+      <point x="57.0" y="59.5" />
+    </edge>
+    <edge source="pee.modprob.Operador" target="pee.modprob.Estado">
+      <point x="0.0" y="-36.5" />
+      <point x="950.4999999999999" y="123.0" />
+      <point x="1593.1916666666666" y="123.0" />
+      <point x="-28.65000000000009" y="36.5" />
+    </edge>
+    <edge source="pee.mecproc.mem.MemoriaFIFO" target="pee.mecproc.mem.MemoriaProcura">
+      <point x="37.75" y="-25.5" />
+      <point x="2151.5755072819506" y="1049.0" />
+      <point x="2650.429673948617" y="1049.0" />
+      <point x="-15.8125" y="137.0" />
+    </edge>
+    <edge source="pee.mecproc.MecanismoProcura" target="pee.mecproc.mem.MemoriaProcura">
+      <point x="82.33333333333326" y="-126.0" />
+      <point x="1807.1588406152841" y="1019.0" />
+      <point x="2555.554673948617" y="1019.0" />
+      <point x="-110.6875" y="137.0" />
+    </edge>
+    <edge source="pee.melhorprim.ProcuraAA" target="pee.melhorprim.ProcuraMelhorPrim">
+      <point x="45.33333333333326" y="-25.5" />
+      <point x="1462.4921739486174" y="1686.0" />
+      <point x="2274.0755072819506" y="1686.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="pee.melhorprim.ProcuraCustoUnif" target="pee.modprob.Problema">
+      <point x="-52.5" y="-25.5" />
+      <point x="2254.563570814923" y="1616.0" />
+      <point x="544.4999999999999" y="1616.0" />
+      <point x="544.4999999999999" y="1089.0" />
+      <point x="452.9969041482565" y="1089.0" />
+      <point x="-19.0" y="59.5" />
+    </edge>
+    <edge source="pee.melhorprim.ProcuraHeur" target="pee.modprob.ProblemaHeur">
+      <point x="-64.75" y="-36.5" />
+      <point x="339.7499999999998" y="1471.0" />
+      <point x="211.66666666666674" y="1471.0" />
+      <point x="84.66666666666669" y="37.0" />
+    </edge>
+    <edge source="pee.modprob.Problema" target="pee.modprob.Estado">
+      <point x="-85.5" y="-59.5" />
+      <point x="386.4969041482565" y="685.0" />
+      <point x="79.16666666666674" y="685.0" />
+      <point x="79.16666666666674" y="103.0" />
+      <point x="1554.9916666666668" y="103.0" />
+      <point x="-66.84999999999991" y="36.5" />
+    </edge>
+    <edge source="pee.larg.ProcuraLarg" target="pee.Procura">
+      <point x="-98.40000000000009" y="-25.5" />
+      <point x="1761.9999999999998" y="1411.0" />
+      <point x="861.4135708149231" y="1411.0" />
+      <point x="77.66666666666663" y="36.5" />
+    </edge>
+    <edge source="pee.mecproc.mem.MemoriaProcura" target="pee.modprob.Estado">
+      <point x="94.875" y="-137.0" />
+      <point x="2761.117173948617" y="685.0" />
+      <point x="2708.867173948617" y="685.0" />
+      <point x="2708.867173948617" y="93.0" />
+      <point x="1707.7916666666665" y="93.0" />
+      <point x="85.95000000000005" y="36.5" />
+    </edge>
+    <edge source="pee.mecproc.mem.No" target="pee.modprob.Estado">
+      <point x="83.20000000000005" y="-92.0" />
+      <point x="2039.8249999999998" y="401.0" />
+      <point x="1993.9249999999997" y="401.0" />
+      <point x="1993.9249999999997" y="123.0" />
+      <point x="1650.4916666666663" y="123.0" />
+      <point x="28.649999999999864" y="36.5" />
+    </edge>
+    <edge source="pee.melhorprim.ProcuraAA" target="pee.mecproc.mem.No">
+      <point x="0.0" y="-25.5" />
+      <point x="1417.1588406152841" y="1626.0" />
+      <point x="1376.0" y="1626.0" />
+      <point x="1376.0" y="655.0" />
+      <point x="1895.958333333333" y="655.0" />
+      <point x="-60.66666666666674" y="92.0" />
+    </edge>
+    <edge source="pee.melhorprim.ProcuraSofrega" target="pee.modprob.ProblemaHeur">
+      <point x="-45.33333333333326" y="-25.5" />
+      <point x="1215.8255072819509" y="1646.0" />
+      <point x="43.5" y="1646.0" />
+      <point x="43.5" y="1471.0" />
+      <point x="42.33333333333326" y="1471.0" />
+      <point x="-84.66666666666674" y="37.0" />
+    </edge>
+    <edge source="pee.mecproc.MecanismoProcura" target="pee.mecproc.mem.No">
+      <point x="0.0" y="-126.0" />
+      <point x="1724.8255072819506" y="665.0" />
+      <point x="1913.2916666666665" y="665.0" />
+      <point x="-43.33333333333326" y="92.0" />
+    </edge>
+    <edge source="pee.PassoSolucao" target="pee.modprob.Operador">
+      <point x="-38.5" y="-47.5" />
+      <point x="1187.0" y="266.0" />
+      <point x="980.0714285714284" y="266.0" />
+      <point x="29.571428571428555" y="36.5" />
+    </edge>
+    <edge source="pee.mecproc.MecanismoProcura" target="pee.modprob.Estado">
+      <point x="54.888888888888914" y="-126.0" />
+      <point x="1779.7143961708398" y="1009.0" />
+      <point x="2529.242173948617" y="1009.0" />
+      <point x="2529.242173948617" y="113.0" />
+      <point x="1669.5916666666667" y="113.0" />
+      <point x="47.75" y="36.5" />
+    </edge>
+    <edge source="pee.Percurso" target="pee.Solucao">
+      <point x="-103.20000000000005" y="-70.5" />
+      <point x="1106.7969041482565" y="675.0" />
+      <point x="1161.9469041482566" y="675.0" />
+      <point x="97.20000000000005" y="48.0" />
+    </edge>
+    <edge source="pee.mecproc.mem.MemoriaProcura" target="pee.mecproc.mem.No">
+      <point x="-31.625" y="-137.0" />
+      <point x="2634.617173948617" y="635.0" />
+      <point x="2051.958333333333" y="635.0" />
+      <point x="95.33333333333303" y="92.0" />
+    </edge>
+    <edge source="pee.mecproc.mem.MemoriaFIFO" target="pee.mecproc.mem.No">
+      <point x="-37.75" y="-25.5" />
+      <point x="2076.0755072819506" y="685.0" />
+      <point x="1965.2916666666665" y="685.0" />
+      <point x="8.666666666666742" y="92.0" />
+    </edge>
+    <edge source="pee.melhorprim.ProcuraSofrega" target="pee.melhorprim.ProcuraMelhorPrim">
+      <point x="45.33333333333326" y="-25.5" />
+      <point x="1306.4921739486174" y="1676.0" />
+      <point x="2192.0755072819506" y="1676.0" />
+      <point x="-82.0" y="47.5" />
+    </edge>
+    <edge source="pee.larg.ProcuraLarg" target="pee.modprob.Problema">
+      <point x="-49.200000000000045" y="-25.5" />
+      <point x="1811.1999999999998" y="1401.0" />
+      <point x="910.7469041482565" y="1401.0" />
+      <point x="910.7469041482565" y="1059.0" />
+      <point x="566.9969041482565" y="1059.0" />
+      <point x="95.0" y="59.5" />
+    </edge>
+    <edge source="pee.prof.ProcuraProfIter" target="pee.prof.ProcuraProf">
+      <point x="84.33333333333337" y="-48.0" />
+      <point x="874.8921739486176" y="1666.0" />
+      <point x="1594.3999999999999" y="1666.0" />
+      <point x="0.0" y="25.5" />
+    </edge>
+    <edge source="pee.mecproc.mem.MemoriaPrioridade" target="pee.mecproc.mem.MemoriaProcura">
+      <point x="69.0" y="-25.5" />
+      <point x="2417.325507281951" y="1059.0" />
+      <point x="2682.054673948617" y="1059.0" />
+      <point x="15.8125" y="137.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.5795053003533569" x="317.0" y="414.5" />
-  <SelectedNodes>
-    <node>pee.prof</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="0.570032930845225" x="1346.782206816869" y="380.55401502021954" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>

@@ -3,27 +3,50 @@
   <ID>JAVA</ID>
   <OriginalElement>plantraj</OriginalElement>
   <nodes>
-    <node x="33.0" y="79.0">plantraj.PlaneadorTrajecto</node>
-    <node x="30.0" y="0.0">plantraj.modprob</node>
+    <node x="149.75" y="0.0">plantraj.modprob.EstadoLocalidade</node>
+    <node x="141.75" y="529.0">plantraj.PlaneadorTrajecto</node>
+    <node x="225.5" y="169.0">plantraj.modprob.OperadorLigacao</node>
+    <node x="0.0" y="382.0">plantraj.modprob.ProblemaPlanTraj</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="plantraj.PlaneadorTrajecto" target="plantraj.modprob">
-      <point x="0.0" y="-47.5" />
-      <point x="43.0" y="14.5" />
+    <edge source="plantraj.modprob.ProblemaPlanTraj" target="plantraj.modprob.EstadoLocalidade">
+      <point x="0.0" y="-48.5" />
+      <point x="172.0" y="357.0" />
+      <point x="162.90625" y="357.0" />
+      <point x="162.90625" y="149.0" />
+      <point x="225.5" y="149.0" />
+      <point x="-25.25" y="59.5" />
     </edge>
-    <edge source="plantraj.modprob" target="plantraj.modprob">
-      <point x="0.0" y="14.5" />
-      <point x="94.5" y="59.0" />
-      <point x="0.0" y="59.0" />
-      <point x="0.0" y="7.25" />
-      <point x="-64.5" y="-7.25" />
+    <edge source="plantraj.PlaneadorTrajecto" target="plantraj.modprob.ProblemaPlanTraj">
+      <point x="-102.0" y="-47.5" />
+      <point x="175.75" y="504.0" />
+      <point x="86.0" y="504.0" />
+      <point x="-86.0" y="48.5" />
+    </edge>
+    <edge source="plantraj.modprob.OperadorLigacao" target="plantraj.modprob.EstadoLocalidade">
+      <point x="-64.5" y="-81.5" />
+      <point x="290.0" y="149.0" />
+      <point x="276.0" y="149.0" />
+      <point x="25.25" y="59.5" />
+    </edge>
+    <edge source="plantraj.modprob.ProblemaPlanTraj" target="plantraj.modprob.OperadorLigacao">
+      <point x="114.66666666666669" y="-48.5" />
+      <point x="286.6666666666667" y="357.0" />
+      <point x="268.5" y="357.0" />
+      <point x="-86.0" y="81.5" />
+    </edge>
+    <edge source="plantraj.PlaneadorTrajecto" target="plantraj.modprob.OperadorLigacao">
+      <point x="102.0" y="-47.5" />
+      <point x="379.75" y="504.0" />
+      <point x="372.4375" y="504.0" />
+      <point x="372.4375" y="357.0" />
+      <point x="440.5" y="357.0" />
+      <point x="86.0" y="81.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="121.0" y="87.0" />
-  <SelectedNodes>
-    <node>plantraj.PlaneadorTrajecto</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="0.7639751552795031" x="242.0" y="312.0" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>

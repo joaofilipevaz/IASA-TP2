@@ -3,27 +3,50 @@
   <ID>JAVA</ID>
   <OriginalElement>resolvePuzzle</OriginalElement>
   <nodes>
-    <node x="33.0" y="79.0">resolvePuzzle.ResolvePuzzle</node>
-    <node x="30.0" y="0.0">resolvePuzzle.modProb</node>
+    <node x="223.0" y="191.0">resolvePuzzle.modProb.OperadorPuzzle</node>
+    <node x="0.0" y="382.0">resolvePuzzle.modProb.ProblemaPuzzle</node>
+    <node x="107.39999999999998" y="0.0">resolvePuzzle.modProb.EstadoPuzzle</node>
+    <node x="137.625" y="551.0">resolvePuzzle.ResolvePuzzle</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="resolvePuzzle.ResolvePuzzle" target="resolvePuzzle.modProb">
-      <point x="0.0" y="-47.5" />
-      <point x="43.0" y="14.5" />
+    <edge source="resolvePuzzle.ResolvePuzzle" target="resolvePuzzle.modProb.OperadorPuzzle">
+      <point x="99.75" y="-47.5" />
+      <point x="370.375" y="526.0" />
+      <point x="369.3569444444445" y="526.0" />
+      <point x="369.3569444444445" y="362.0" />
+      <point x="427.1666666666667" y="362.0" />
+      <point x="81.66666666666669" y="70.5" />
     </edge>
-    <edge source="resolvePuzzle.modProb" target="resolvePuzzle.modProb">
-      <point x="-43.0" y="14.5" />
-      <point x="51.5" y="49.0" />
-      <point x="10.0" y="49.0" />
-      <point x="10.0" y="21.75" />
-      <point x="-64.5" y="7.25" />
+    <edge source="resolvePuzzle.modProb.OperadorPuzzle" target="resolvePuzzle.modProb.EstadoPuzzle">
+      <point x="61.25" y="-70.5" />
+      <point x="406.75" y="161.0" />
+      <point x="271.20000000000005" y="161.0" />
+      <point x="72.80000000000004" y="70.5" />
+    </edge>
+    <edge source="resolvePuzzle.modProb.ProblemaPuzzle" target="resolvePuzzle.modProb.EstadoPuzzle">
+      <point x="-125.625" y="-59.5" />
+      <point x="41.875" y="352.0" />
+      <point x="130.0861111111111" y="352.0" />
+      <point x="130.0861111111111" y="171.0" />
+      <point x="125.59999999999998" y="171.0" />
+      <point x="-72.8" y="70.5" />
+    </edge>
+    <edge source="resolvePuzzle.modProb.ProblemaPuzzle" target="resolvePuzzle.modProb.OperadorPuzzle">
+      <point x="125.625" y="-59.5" />
+      <point x="293.125" y="362.0" />
+      <point x="263.8333333333333" y="362.0" />
+      <point x="-81.66666666666669" y="70.5" />
+    </edge>
+    <edge source="resolvePuzzle.ResolvePuzzle" target="resolvePuzzle.modProb.ProblemaPuzzle">
+      <point x="-99.75" y="-47.5" />
+      <point x="170.875" y="526.0" />
+      <point x="83.75" y="526.0" />
+      <point x="-83.75" y="59.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="121.0" y="87.0" />
-  <SelectedNodes>
-    <node>resolvePuzzle.ResolvePuzzle</node>
-  </SelectedNodes>
+  <settings layout="Hierarchic Group" zoom="0.7387387387387387" x="234.0" y="323.0" />
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
     <Category>Constructors</Category>
